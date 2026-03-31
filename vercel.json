@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/frames/(.*)", "destination": "/khungcanhan/$1" },
+    { "source": "/css/(.*)", "destination": "/frontend/css/$1" },
+    { "source": "/js/(.*)", "destination": "/frontend/js/$1" },
+    { "source": "/img/(.*)", "destination": "/frontend/img/$1" },
+    { "source": "/pages/(.*)", "destination": "/frontend/pages/$1" },
+    { "source": "/blocked-ip.html", "destination": "/frontend/blocked-ip.html" },
+    { "source": "/human-check.html", "destination": "/frontend/human-check.html" },
+    { "source": "/index.html", "destination": "/frontend/index.html" },
+    { "source": "/favicon.ico", "destination": "/frontend/img/icon.ico" },
+    { "source": "/(.*)", "destination": "/frontend/index.html" }
+  ]
+}
